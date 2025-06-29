@@ -41,9 +41,12 @@ export default function ConsultingHomepage() {
             >
               預約體驗諮詢
             </a>
-            <button className="border border-rose-500 text-rose-600 px-8 py-3 rounded-full transition hover:bg-rose-100">
+            <a
+              href="#pricing"
+              className="border border-rose-500 text-rose-600 px-8 py-3 rounded-full transition hover:bg-rose-100 inline-block"
+            >
               查看服務方案
-            </button>
+            </a>
           </motion.div>
         </motion.div>
       </section>
@@ -177,7 +180,7 @@ export default function ConsultingHomepage() {
       </section>
 
       {/* Pricing & Packages - Redesigned */}
-      <section className="py-20 px-6 max-w-5xl mx-auto">
+      <section id="pricing" className="py-20 px-6 max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold mb-10 text-center text-rose-600">
           諮詢方案與收費標準
         </h2>
