@@ -33,9 +33,14 @@ export default function ConsultingHomepage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 1 }}
           >
-            <button className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-full shadow-md transition">
+            <a
+              href="https://cal.com/jocelinho/30-min-meeting-with-jocelin-tw-tz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-rose-500 hover:bg-rose-600 text-white px-8 py-3 rounded-full shadow-md transition inline-block"
+            >
               預約體驗諮詢
-            </button>
+            </a>
             <button className="border border-rose-500 text-rose-600 px-8 py-3 rounded-full transition hover:bg-rose-100">
               查看服務方案
             </button>
@@ -311,9 +316,14 @@ export default function ConsultingHomepage() {
 
       {/* Sticky CTA Button */}
       <div className="fixed bottom-6 left-0 w-full flex justify-center z-50 pointer-events-none">
-        <button className="pointer-events-auto bg-rose-500 hover:bg-rose-600 text-white px-8 py-4 rounded-full shadow-lg text-lg font-bold transition focus:outline-none focus:ring-2 focus:ring-rose-400">
+        <a
+          href="https://cal.com/jocelinho/30-min-meeting-with-jocelin-tw-tz"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="pointer-events-auto bg-rose-500 hover:bg-rose-600 text-white px-8 py-4 rounded-full shadow-lg text-lg font-bold transition focus:outline-none focus:ring-2 focus:ring-rose-400"
+        >
           立即預約諮詢
-        </button>
+        </a>
       </div>
 
       <footer className="py-8 text-center text-sm text-gray-500 bg-white">
